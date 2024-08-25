@@ -3,7 +3,7 @@ body{
 }
 
 h1{
-    color: white;
+    color: rgb(77, 134, 134);
     background-color: black;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -14,9 +14,10 @@ h1{
 }
 
 div{
-    color: antiquewhite;
+    color: darkslategray;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .button-btn{
@@ -31,7 +32,7 @@ div{
 }
 
 .href{
-    color: wheat;
+    color: rgb(77, 134, 134);
     text-decoration: none;
 }
 
@@ -68,3 +69,5 @@ div{
     border: 3px solid #ccc;
     padding: 15px 25px; 
 }
+
+

@@ -1,0 +1,42 @@
+img.title{
+    height: 250pt;
+    width: 250pt;
+    border: 3px solid #ccc;
+    padding: 15px 25px;
+}
+
+.describe{
+    margin-top: 12%;
+    margin-left: -20%;
+}
+
+.container{
+    max-width: 1170;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.mtb-3{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.table{
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0,0,0,2);
+    border-collapse: collapse;
+
+}
+
+.table th, .table td{
+    text-align: center;
+    padding: 10px;
+}
+
+.table th{
+    background-color: darkgrey;
+    color: rgb(77, 134, 134)rgb(77, 134, 134);
+}
+
+
+
