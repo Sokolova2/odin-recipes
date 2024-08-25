@@ -1,0 +1,70 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+
+div{
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.button-btn{
+    height: 50pt;
+    width: 150pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border-radius: 0.5cm;
+    box-shadow: 0px 0px 4px 4px rgb(112,128,144);
+    background-color: black;
+    margin-top: 30%;
+}
+
+.href{
+    color: wheat;
+    text-decoration: none;
+}
+
+.block{
+    background-color: whitesmoke;
+    padding: 1.15em 1.94em;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.block-food{
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 20px;
+    background-color: darkgray;
+}
+
+.text{
+    margin-top: 4%;
+    margin-left: 1%;
+    padding: 10px 10px;
+}
+
+.img{
+    height: 200pt;
+    width: 200pt;
+    border: 3px solid #ccc;
+    padding: 15px 25px; 
+}
