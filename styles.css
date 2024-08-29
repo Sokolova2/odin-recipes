@@ -1,8 +1,10 @@
 body{
+    display: block;
     background-color: whitesmoke;
 }
 
 h1{
+    display: block;
     color: rgb(77, 134, 134);
     background-color: black;
     text-align: center;
@@ -14,6 +16,7 @@ h1{
 }
 
 div{
+    display: block;
     color: darkslategray;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -21,6 +24,7 @@ div{
 }
 
 .button-btn{
+    display: block;
     height: 50pt;
     width: 150pt;
     font-family: 'Times New Roman', Times, serif;
@@ -32,18 +36,22 @@ div{
 }
 
 .href{
+    display: block;
     color: rgb(77, 134, 134);
     text-decoration: none;
 }
 
 .block{
+    display: block;
     background-color: whitesmoke;
     padding: 1.15em 1.94em;
     padding-left: 20%;
     padding-right: 20%;
+    margin-bottom: 40px;
 }
 
 .block-food{
+    display: block;
     max-width: 1300px;
     margin: 0 auto;
     justify-content: space-between;
@@ -55,15 +63,18 @@ div{
     padding-right: 5%;
     margin-bottom: 20px;
     background-color: darkgray;
+    margin-bottom: 40px;
 }
 
 .text{
+    display: block;
     margin-top: 4%;
     margin-left: 1%;
     padding: 10px 10px;
 }
 
 .img{
+    display: block;
     height: 200pt;
     width: 200pt;
     border: 3px solid #ccc;
@@ -71,3 +82,11 @@ div{
 }
 
 
+
+*{
+    outline: 2px solid red;
+}
+
+.block.block-food.food{
+    margin-bottom: 100px;
+}
